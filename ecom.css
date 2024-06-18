@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    
+}
+
+#navbar{position: sticky;
+top: 0;
+left: 0;
+z-index: 1;
+padding: .5rem 8rem;
+box-shadow: 5px 8px 20px rosybrown;
+background-color: black;
+}
+
+
+
+.navbar  .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: green !important ;
+}
+
+#navbarSupportedContent a {
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+     
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button {
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* home */
+#home{
+    background:url(./asset/myecom.jpeg);
+    background-color: rgb(243, 7, 7);
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+
+}
+marquee{
+    color: aliceblue;
+    font-size: 30px;
+}
+#home h1{
+    color:rgba(35, 12, 243, 0.74);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+#home p{
+    font-size: 35px;
+    color: antiquewhite;
+}
+#home .input-group{
+    width: 400px;
+}
+
+.signin{
+    background: green !important;
+    color: white !important;
+}
+/* aboutpage */
+
+#about{
+background:linear-gradient(rgb(247, 110, 110),rgb(126, 235, 126),rgb(248, 248, 143));
+}
+#about h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+#aboutimg{
+    border-radius: 50%;
+}
+
+/* product */
+
+#product{
+    background: url(./asset/pagephoto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#product img{
+   width: 300px;
+   height: 200px;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    min-height: 350px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgb(19, 16, 16);
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+.card .btn{
+align-items: center;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(12, 11, 11, 0.719),
+    inset -4px -4px 10px whitesmoke;
+}
+
+/******* contact page *******/
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px ;
+}
+
+#contact textarea{
+    margin: 10px 0px ;
+}
+footer{ 
+    height: 40px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: -30px;
+}
